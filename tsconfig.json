@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "out/",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": "@/**/*",
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ],
+      "@keys/*": [
+        "keys/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
